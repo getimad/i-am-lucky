@@ -1,0 +1,86 @@
+@import url(fonts.css);
+@import url(colors.css);
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #E7E7E7;
+  font-family: "Roboto Regular";
+  color: #FFF;
+  user-select: none;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 66px;
+}
+
+.card {
+  width: 400px;
+  height: 400px;
+  background-color: var(--color-3);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 30px 80px var(--color-3);
+}
+
+.card-head {
+  height: 60px;
+  background-color: var(--color-1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--color-2);
+  gap: 100px;
+  padding: 5px 12px;
+  border-radius: 15px;
+  border: 2px solid var(--color-3);
+  font-family: "Roboto Bold";
+}
+
+.item > img {
+  width: 32px;
+}
+
+.card-body {
+  height: 340px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.help {
+  height: 32px;
+  width: 32px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: var(--color-2);
+  border-radius: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--color-1);
+}
+
+.letter {
+  font-family: "Roboto Bold";
+  font-size: 200px;
+  color: var(--color-1);
+}

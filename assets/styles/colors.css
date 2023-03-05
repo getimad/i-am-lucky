@@ -1,0 +1,21 @@
+:root {
+  --color-x-1: #141E27;
+  --color-x-2: #16222B;
+  --color-x-3: #203239;
+
+  --color-y-1: #31172A;
+  --color-y-2: #361B2D;
+  --color-y-3: #452339;
+}
+
+.x-theme {
+  --color-1: var(--color-x-1);
+  --color-2: var(--color-x-2);
+  --color-3: var(--color-x-3);
+}
+
+.y-theme {
+  --color-1: var(--color-y-1);
+  --color-2: var(--color-y-2);
+  --color-3: var(--color-y-3);
+}
